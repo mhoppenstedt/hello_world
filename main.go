@@ -8,8 +8,8 @@ import (
 func main() {
 	fmt.Println("hello world")
 	fmt.Println(math.Cos(math.Pi))
-	fmt.Printf("Rectangle area: %d", rectArea(5, 5))
-	fmt.Printf("Triangle area : %f", triaArea(3, 3))
+	fmt.Printf("Rectangle area: %d\n", rectArea(5, 5))
+	fmt.Printf("Triangle area : %f\n", triaArea(3, 3))
 }
 
 func rectArea(x, y int) int {
