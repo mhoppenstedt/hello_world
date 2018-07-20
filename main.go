@@ -3,6 +3,9 @@ package main
 import (
 	"fmt"
 	"math"
+	"time"
+
+	"github.com/jinzhu/now"
 )
 
 func main() {
@@ -10,6 +13,8 @@ func main() {
 	fmt.Println(math.Cos(math.Pi))
 	fmt.Printf("Rectangle area: %d\n", rectArea(5, 5))
 	fmt.Printf("Triangle area : %f\n", triaArea(3, 3))
+	fmt.Println(now.BeginningOfDay())
+	fmt.Println(time.Now())
 }
 
 func rectArea(x, y int) int {
